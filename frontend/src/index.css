@@ -1,0 +1,64 @@
+body {
+  background-image: url(../public/bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+
+
+
+.chat-container {
+  opacity: 0.9;
+  max-width: 600px;
+  position: relative;
+  top: 3rem;
+  margin: 0 auto;
+  background-color: #222;
+  border-radius: 5px;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  
+}
+
+.frame-indicator {
+  color: orangered;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.message {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.team-tag {
+  color: #ff6600;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.player-name {
+  color: #4d9de0;
+  font-weight: bold;
+}
+
+.message-text {
+  color: #e0e0e0;
+}
+
+.strategy-call {
+  text-transform: uppercase;
+  color: #ffcc00;
+}

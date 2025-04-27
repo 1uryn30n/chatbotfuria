@@ -1,0 +1,63 @@
+
+
+.chatbot {
+  
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-family: 'Courier New', monospace;
+}
+
+.messages {
+  height: 400px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #000000;
+}
+
+.message {
+   
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  max-width: 95%;
+  overflow-y: auto;
+}
+#start-msg{
+  margin-left: 1rem;
+}
+
+.user-name {
+  color: #ccc;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.message.bot , .message.user{
+ 
+  font-weight: normal;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+ 
+}
+
+.input-area input {
+  font-size: larger;
+  flex: 1;
+  padding: 8px;
+  background: #000000;
+  color: orange;
+  font-family: 'Courier New', monospace;
+
+}
+
+.input-area button {
+  padding: 6px 12px;
+  background: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+}

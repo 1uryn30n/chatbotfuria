@@ -8,10 +8,31 @@
 }
 
 .messages {
+  flex: 1; /* Ocupa o espaço restante */
+  overflow-y: auto; /* Habilita scroll vertical */
+  max-height: 80vh; /* Limita a altura máxima (ajuste conforme necessário) */
   height: 400px;
   margin-bottom: 10px;
   padding: 10px;
   background: #000000;
+}
+/* Estilização do scrollbar */
+.messages::-webkit-scrollbar {
+  width: 4px; 
+}
+
+.messages::-webkit-scrollbar-track {
+  background: #1e1e1e; 
+  border-radius: 4px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 4px;
+}
+
+.messages::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
 .message {
